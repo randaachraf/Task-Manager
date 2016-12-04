@@ -1,0 +1,39 @@
+
+
+template <class T>
+
+Class Node
+{
+public:
+  int ID;
+  String name;
+  string description;
+   char duedate[];
+     char finished[];
+  Node<t> *next;
+
+public:
+node();
+
+};
+
+template <class T>
+ 
+class Task 
+{
+public:
+  Node<T>*head;
+  Node<T>*Tail;
+   int size;
+
+Task();
+ 
+Void AddTask();
+Void FinishedTask();
+Void EditTask();
+Void SearchTask();
+void DeleteTask();
+void DisplayTask();
+
+
+};
